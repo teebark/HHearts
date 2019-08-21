@@ -1,0 +1,120 @@
+/*
+ Theme Name:   HH GP Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+/* Assign color variables */
+:root {
+	--dark-blue: #242743;
+	--light-blue: #1e73be;
+	--blue: #4A5EA5;
+	--gray: #848DA5;
+	--off-white: #DEE2E9;
+	--dark-gray: #646B79;
+	--light-gray: #848da575;
+	--comp-gold: #baa954;
+	--triad-red: #ba5465;
+	--triad-green: #65ba54;
+	--footer-gray: #b9b6b6;
+}
+/* Text sizes */
+h1 {
+	font-size: 30px;
+	font-weight: 700;
+	color: red;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: red;
+}
+/* Make h2 larger on home page */
+.home .home-subhead {
+	font-size: 24px;
+}
+/* Hero image title */
+h1.hero-title {
+	font-size: 64px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px 0 black;
+	box-shadow: -5px -3px 5px var(--light-gray,gray);
+	background-color: transparent;
+	display: inline-block;
+}
+p.hero-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 1px 1px 0 black;
+	background-color: transparent;
+	display: table-cell;
+}
+/* Format header banner */
+.top-bar {
+	background-color: white;
+	color: #000000;
+}
+.top-bar p {
+	font-size: 13px;
+	font-weight: 300;
+	margin: 5px 0 0 0;
+}
+/* Make the header widgets contolled by flex */
+.ugb-container__content-wrapper {
+	display: flex;
+	justify-content: center;
+}
+/* Add border to dpp button */
+.dpp-button {
+	border: 2px solid black;
+}
+p, td {
+	font-size: 16px;
+}
+/* H4 styling in services cards */
+.services h4 {
+	font-size: 2em;
+}
+/* Turn off buttons in services cards */
+.services .ugb-button {
+	display: none;
+}
+/* Make footer widgets controlled by flex */
+.site-footer .footer-widgets-container .inside-footer-widgets {
+	display: flex;
+	text-align: center;
+}
+/* format home page hours and map */
+.wp-block-columns.has-2-columns.home-hours-map {
+	margin: 0 10vw 0 10vw;
+}
+/* Tweak hours table on home page */
+.wp-block-columns.has-2-columns.home-hours-map > div:nth-child(1) > table {
+	margin: 0 0 5vh 0;
+}
+/* Turn off copyright bar */
+.copyright-bar, .site-info {
+	display: none;
+}
+/* Mailchimp signup form styling */
+#mc_embed_signup {
+	background: transparent !important;
+}
+#mc_embed_signup label {
+	display: none !important;
+}
+#mc_embed_signup .button {
+	background-color: #405887 !important;
+}
+#mc_embed_signup form {
+	text-align: left !important;
+}
+#next-meeting .wp-show-posts {
+	background: orange;
+	line-height: 31px;
+}
