@@ -32,6 +32,15 @@ h2 {
 	font-weight: 700;
 	color: red;
 }
+/* Customize file upload boxes */
+#wordpress_file_upload_title_1 .file_title_clean {
+	font-size: 20px;
+	font-weight: 600;
+	color: #3a3a3a;
+}
+table.file_table_clean {
+	padding-bottom: 10px;
+}
 /* Make h2 larger on home page */
 .home .home-subhead {
 	font-size: 24px;
@@ -83,6 +92,14 @@ p, td {
 /* Turn off buttons in services cards */
 .services .ugb-button {
 	display: none;
+}
+.wp-block-blockgallery-masonry.alignwide.partners-images {
+	margin-left: 0;
+	width: 95%;
+}
+/* Set vertical line between columns */
+.client-registration .wp-block-column:first-child {
+	border-right: 1px solid black;
 }
 /* Make footer widgets controlled by flex */
 .site-footer .footer-widgets-container .inside-footer-widgets {
